@@ -1,0 +1,18 @@
+﻿@model IdenTest.Models.LoginViewModel
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+@using (Html.BeginForm("Login", "Account", FormMethod.Post))
+{
+    @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+    
+    <h4>Please enter your username to log in</h4>
+    
+    @Html.TextBoxFor(m => m.UserName)
+
+    <input type="submit" value="Log in" />
+}

@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>Home Page</h2>
+
+@if (Request.IsAuthenticated)
+{
+    <h4>You are logged in as: @User.Identity.Name. @Html.ActionLink("Log out", "Logout", "Account")</h4>
+}
+else
+{
+    <h4>You are not logged in. @Html.ActionLink("Log in page", "Login", "Account")</h4>
+}
