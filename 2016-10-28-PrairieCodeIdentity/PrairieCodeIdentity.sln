@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4E866B10-F7A6-446D-9FC3-516462C9685B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8BEB8C67-4C37-4CCF-B1CA-A17F02C860B4}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PrairieCodeIdentity", "src\PrairieCodeIdentity\PrairieCodeIdentity.xproj", "{E40BC3B5-B1BF-476F-897F-739CF20ED101}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E40BC3B5-B1BF-476F-897F-739CF20ED101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E40BC3B5-B1BF-476F-897F-739CF20ED101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E40BC3B5-B1BF-476F-897F-739CF20ED101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E40BC3B5-B1BF-476F-897F-739CF20ED101}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E40BC3B5-B1BF-476F-897F-739CF20ED101} = {4E866B10-F7A6-446D-9FC3-516462C9685B}
+	EndGlobalSection
+EndGlobal
