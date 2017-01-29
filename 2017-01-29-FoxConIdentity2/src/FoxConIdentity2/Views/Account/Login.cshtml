@@ -1,0 +1,24 @@
+﻿@model LoginViewModel
+
+@{
+    ViewData["Title"] = "Log in";
+}
+
+<h2>Login</h2>
+
+<form asp-controller="Account" asp-action="Login" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post" class="form-horizontal">
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <h4>Please enter your username to log in</h4>
+
+    <div class="form-group">
+        <label asp-for="UserName" class="col-md-2 control-label"></label>
+        <div class="col-md-10">
+            <input asp-for="UserName" class="form-control"/>
+            <span asp-validation-for="UserName" class="text-danger"></span>
+        </div>
+    </div>
+
+    <input type="submit" value="Log in"/>
+</form>

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EDB9ADE6-0C00-4541-A5A8-0D312F9EA9DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4FF21CFE-9DE9-4DEA-A824-3A44A5130752}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FoxConIdentity2", "src\FoxConIdentity2\FoxConIdentity2.xproj", "{239A94B8-5A4A-455F-9126-9DDD60D32DB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{239A94B8-5A4A-455F-9126-9DDD60D32DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{239A94B8-5A4A-455F-9126-9DDD60D32DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{239A94B8-5A4A-455F-9126-9DDD60D32DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{239A94B8-5A4A-455F-9126-9DDD60D32DB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{239A94B8-5A4A-455F-9126-9DDD60D32DB6} = {EDB9ADE6-0C00-4541-A5A8-0D312F9EA9DE}
+	EndGlobalSection
+EndGlobal
