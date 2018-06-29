@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2>Home Page</h2>
+
+@if (User.Identity.IsAuthenticated)
+{
+    <form asp-area="" asp-controller="Account" asp-action="LogOff" method="post" id="logoutForm">
+        <h4>
+            You are logged in as: @User.Identity.Name. <button type="submit" class="btn btn-link navbar-btn navbar-link">Log off</button>
+        </h4>
+    </form>
+}
+else
+{
+    <h4>You are not logged in. <a asp-area="" asp-controller="Account" asp-action="Login">Log in</a></h4>
+}
